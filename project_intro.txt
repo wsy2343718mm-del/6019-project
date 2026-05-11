@@ -1,0 +1,31 @@
+Project 3: Inverse Reinforcement Learning and Preference-Based Learning
+Difficulty Level: Advanced ★★★★☆ (4.1/5) Recommended Weight: 112 points
+
+Project Overview and Significance This project focuses on recovering reward functions from expert behavior or human preferences. Students will implement multiple Inverse RL algorithms and extend them to preference-based learning. It directly corresponds to Lecture 8 (Inverse Reinforcement Learning) and Lecture 7 (Preference-based Learning).
+
+The project explores deep theoretical questions such as reward ambiguity and connects to modern RLHF techniques in Lecture 9.
+
+Technical Details
+
+Environment: Grid-world (advanced) or MuJoCo simple reaching tasks
+Core Algorithms: Linear Programming IRL → Maximum Margin IRL → Maximum Entropy IRL + Bradley-Terry preference model
+Implementation: Both linear and deep feature versions
+
+Team Workload Division (4 students)
+
+Student 1: Environment + expert trajectory / preference data generation.
+Student 2: Linear Programming and Maximum Margin IRL.
+Student 3: Maximum Entropy IRL implementation.
+Student 4: Policy training using recovered rewards, full comparison experiments, and report.
+
+AI Programming Requirement Use AI extensively for optimization problem formulation (CVXPY/PuLP), reward visualization, and preference data synthesis.
+
+Key Experiments & Analysis
+
+Recovered reward quality vs. ground truth
+Policy performance after IRL
+Ablation studies on noise in demonstrations and preference data
+
+Challenges and Edge Cases Reward ambiguity, scalability to high-dimensional spaces, and ethical implications of reward inference.
+
+Deliverables: Reward visualization tools, comprehensive comparison, and discussion of IRL’s role in robot learning.

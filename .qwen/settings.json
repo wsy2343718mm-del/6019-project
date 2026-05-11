@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(move *)",
+      "Bash(del *)",
+      "Bash(mkdir *)",
+      "Bash(type *)",
+      "Bash(findstr *)",
+      "Bash(dir *)"
+    ]
+  },
+  "$version": 3
+}
