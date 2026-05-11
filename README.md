@@ -147,13 +147,6 @@ python main_comparison.py
 | Student 3 | MaxEnt-IRL + Preference-BT 实现 |
 | Student 4 | 策略训练 + 对比实验 + 报告 |
 
-## 参考文献
-
-1. Ng, A. Y., & Russell, S. (2000). Algorithms for inverse reinforcement learning.
-2. Abbeel, P., & Ng, A. Y. (2004). Apprenticeship learning via inverse reinforcement learning.
-3. Ziebart, B. D., et al. (2008). Maximum entropy inverse reinforcement learning.
-4. Bradley, R. A., & Terry, M. E. (1952). Rank analysis of incomplete block designs.
-
 ## License
 
 本项目为课程作业，仅供学习参考。
